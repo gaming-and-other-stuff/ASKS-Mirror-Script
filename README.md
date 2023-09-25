@@ -5,7 +5,7 @@ This is the script I used when mirroring .asks files from the ASK Sound Novel Ma
 ## Prerequisites
 * wget
 * Python 3
-* Python 3 Requests Library
+* Python 3 Requests Library (asks2.py)
 
 ## Usage
 The script will take URLs from a file called "urls.txt" and run the ``--spider`` command on it. If it returns a ``2XX`` response, it will use wget to mirror the file.
